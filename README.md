@@ -1,2 +1,2 @@
 # sysadmin-note
-test doang
+kumpulan note sysadmin

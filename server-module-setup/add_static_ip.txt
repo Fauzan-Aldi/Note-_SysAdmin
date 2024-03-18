@@ -1,0 +1,17 @@
+1. masukin command ip a, terus cek nama network modul (ens, etc)
+2. sudo nano /etc/netplan/[nama].yaml
+3. ganti value, dchp4: no
+4. add static ip, 
+   addresses: [ipAddress/subnet]
+
+5. add gateway,
+   routes:
+     - to: default
+       via: ipGateway
+
+6. add DNS,
+   nameservers:
+       addresses: [ipDNS,ipDNS] 
+7. save and exit
+8. sudo netplan try, revert change
+9. ip a, buat check ip baru

@@ -1,0 +1,9 @@
+1. run docker desktop untuk nyalain docker engine
+2. buka vscode/notepad 
+2. create file "docker-compose.yml" gunanya untuk configuration file sebuah container
+2. di docker-compose file add 2 image:
+   - postgres -> port 5432
+   - odoo     -> port 8069
+3. configure "docker-compose.yml" sesuai file yg tersedia di github
+4. configure "odoo.conf" sesuai file yg tersedia di github
+5. docker-compose up

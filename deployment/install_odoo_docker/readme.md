@@ -2,6 +2,8 @@
 # Simple ways to setup Odoo development on Docker  
 Simplified tutorial to install odoo using docker, it compatible with macOS, windows and linux.
 
+
+
 > [!Important]
 > This method doesn't support a custom / specific configuration to achieve certain goals
 

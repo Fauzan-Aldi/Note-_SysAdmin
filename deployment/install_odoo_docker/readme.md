@@ -23,9 +23,11 @@ Simplified tutorial to install odoo using docker, it compatible with macOS, wind
 1. Download docker to run docker engine
 2. Link to docker desktop
     
-    a. MacOS: 
+    a. MacOS: [Apple silicon link](https://desktop.docker.com/mac/main/arm64/Docker.dmg?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=module&_gl=1*2gx35p*_ga*MjM0NTM5MTUzLjE3MTQxMzQ1MDc.*_ga_XJWPQMJYHQ*MTcxNDU3ODkxNy4zLjEuMTcxNDU3ODk5MS41OS4wLjA.)
     
-    b. Windows: 
+    b. Windows: [link](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=module&_gl=1*1ncu28n*_ga*MjM0NTM5MTUzLjE3MTQxMzQ1MDc.*_ga_XJWPQMJYHQ*MTcxNDU3ODkxNy4zLjEuMTcxNDU3ODkxOS41OC4wLjA.)
+
+    c. Linux: [link](https://docs.docker.com/desktop/linux/install/?_gl=1*7u0a2a*_ga*MjM0NTM5MTUzLjE3MTQxMzQ1MDc.*_ga_XJWPQMJYHQ*MTcxNDU3ODkxNy4zLjEuMTcxNDU3ODk5MS41OS4wLjA.)
 3. Run the installer executable
 4. For windows check the pre-install WSL2
 5. After finish the installaion

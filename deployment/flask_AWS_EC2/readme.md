@@ -1,3 +1,41 @@
+
+# How to deploy Localhost Flask app in AWS EC2 Instances
+A tutorial to deploy your Localhost Flask Web App / API in AWS EC2 Instances.
+
+
+## ⚠ Requirement
+- Flask app that are ready to be deploy
+- Registered AWS account 
+- Your browser (if web app)
+- CLI / Postman (if API)
+## Creating EC2 Instances
+Here's a a detailed tutorial [to create AWS EC2 instances](https://www.geeksforgeeks.org/amazon-ec2-creating-an-elastic-cloud-compute-instance/).
+
+## Connect to your instances
+Go to the EC2 management console then click "connect" on your instances then new page will appear. Then click "SSH client" section to SSH client page like the image below. 
+
+Follow the the tutorial that are provided from AWS to connect to your instances via SSH.
+
+![image](https://github.com/user-attachments/assets/b9d5d3af-d645-45a1-8cd4-1f3ab75443ce)
+
+
+## Configure your instance
+1. First, Update the package of the instance  
+
+    ```
+    $ sudo apt-get update
+    ```
+
+2. Second, Install the requirements
+- Install the ```pip```
+    ```
+    $ sudo apt install python-pip
+    ```
+
+- Install the ```venv```
+    ```
+    $ sudo apt install python3-venv
+    ```
 ## Configure your project
 1. Clone your Flask repository
 
